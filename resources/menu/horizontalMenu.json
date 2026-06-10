@@ -1,0 +1,66 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon icon-base ri ri-home-smile-line",
+      "slug": "pages-home",
+      "permission": "home.view"
+    },
+    {
+      "url": "/product-management",
+      "icon": "menu-icon icon-base ri ri-product-hunt-line",
+      "name": "Products",
+      "slug": "product-management",
+      "permission": "product.view"
+    },
+    {
+      "url": "/order-management",
+      "icon": "menu-icon icon-base ri ri-shopping-bag-3-line",
+      "name": "Orders",
+      "slug": "order-management",
+      "permission": "order.view"
+    },
+
+    {
+      "url": "/user-management",
+      "icon": "menu-icon icon-base ri ri-team-line",
+      "name": "Users",
+      "slug": "user-management",
+      "permission": "user.view"
+    },
+    {
+      "url": "/access-roles-list",
+      "icon": "menu-icon icon-base ri ri-shield-user-line",
+      "name": "Roles",
+      "slug": "access-roles-list",
+      "permission": "role.view"
+    },
+
+    {
+      "url": "/activity-management",
+      "icon": "menu-icon icon-base ri ri-history-line",
+      "name": "Activity Log",
+      "slug": "activity-management",
+      "permission": "activity.view"
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon icon-base ri ri-settings-3-line",
+      "slug": "setting",
+      "permission": [
+        "settings.drm.type"
+      ],
+      "submenu": [
+        {
+          "url": "settings/drm-type-management",
+          "name": "DRM Type Management",
+          "slug": "settings-drm-type-management",
+          "permission": [
+            "settings.drm.type"
+          ]
+        }
+      ]
+    }
+  ]
+}

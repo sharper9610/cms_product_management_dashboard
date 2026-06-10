@@ -1,0 +1,33 @@
+<?php
+// Variables
+return [
+  "creatorName" => "Product Management",
+  "creatorUrl" => "https://stagingdashboard.2gamedigital.com",
+  "templateName" => "ProductManagement",
+  "templateSuffix" => "ProductManagement",
+  "templateVersion" => "2.0.0",
+  "templateFree" => false,
+  "templateDescription" => "ProductManagement!",
+  "templateKeyword" => "ProductManagement",
+  "licenseUrl" => "https://themeselection.com/license/",
+  "livePreview" => "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/demo-1/",
+  "productPage" => "https://themeselection.com/item/materio-dashboard-pro-laravel/",
+  "support" => "https://themeselection.com/support/",
+  "adminTemplates" => "https://themeselection.com/item/category/admin-templates/",
+  "bootstrapDashboard" => "https://themeselection.com/item/category/bootstrap-admin-templates/",
+  "ogTitle" => "ProductManagement",
+  "ogImage" => "",
+  "ogType" => "product",
+  "moreThemes" => "",
+  "documentation" => "https://demos.themeselection.com/materio-bootstrap-html-admin-template/documentation",
+  "changelog" => "https://demos.themeselection.com/materio-bootstrap-html-laravel-admin-template/changelog.html",
+  "repository" => "https://github.com/themeselection/materio-bootstrap-html-laravel-admin-template",
+  "gitRepo" => "materio-bootstrap-html-laravel-admin-template",
+  "gitRepoAccess" => "https://tools.themeselection.com/github/github-access",
+  "githubFreeUrl" => "https://github.com/themeselection",
+  "facebookUrl" => "https://www.facebook.com/ThemeSelections/",
+  "twitterUrl" => "https://x.com/Theme_Selection",
+  "githubUrl" => "https://github.com/themeselection",
+  "dribbbleUrl" => "https://dribbble.com/themeselection",
+  "instagramUrl" => "https://www.instagram.com/themeselection/"
+];

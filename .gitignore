@@ -1,0 +1,47 @@
+
+# Editor & OS Specific Files
+/.idea
+/.vscode
+/.vagrant
+
+# Node & Composer Dependencies
+/node_modules
+/vendor
+
+# Laravel & Lumen Specific
+/public/hot
+/public/storage
+/storage/*.key
+bootstrap/compiled.php
+app/storage/
+public_html/storage
+public_html/hot
+
+# Environment & Config
+.env
+.env.example
+.env.backup
+.env.production
+Homestead.yaml
+Homestead.json
+/auth.json
+.phpactor.json
+.phpunit.result.cache
+astute-azimuth-347718-557465e242d5.json
+
+# Logs & Debug Files
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+composer.lock
+
+
+# Docker & Build Files
+docker-compose.override.yml
+/public/build
+/storage/pail
+
+/.phpunit.cache
+/bootstrap/cache/*.php
+bootstrap/cache/*.php

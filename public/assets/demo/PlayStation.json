@@ -1,0 +1,21 @@
+{
+  "scrape_url": "https://store.playstation.com/pt-br/product/UP0006-PPSA27360_00-26STANDARDBUNDLE",
+  "product_id": 4000173,
+  "region": "BR",
+  "source": "PSN",
+  "concept_id": "UP0006-PPSA27360_00-26STANDARDBUNDLE",
+  "title": "EA SPORTS FC 26 Standard Edition PS4 & PS5",
+  "description": "This Standard Edition brings the newest evolution of the series to PS4 and PS5, focusing on smoother gameplay, improved realism, and multiple modes such as Ultimate Team, Career, and VOLTA. It delivers a flexible football experience for players who enjoy building squads or playing casually.",
+  "platforms": [
+    "PS4",
+    "PS5"
+  ],
+  "primary_image_url": "https://image.api.playstation.com/vulcan/ap/rnd/202507/1617/2e757ffb0a6bb4b91af84db64e0183d725e56e5354f45eba.png?w=1200",
+  "pricing": {
+    "currency": "BRL",
+    "price_original": 349.9,
+    "price_current": 174.95,
+    "discount_percent": 50,
+    "promo_active": true
+  }
+}

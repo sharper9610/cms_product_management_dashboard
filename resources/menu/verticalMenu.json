@@ -1,0 +1,137 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon icon-base ri ri-home-smile-line",
+      "slug": "pages-home",
+      "permission": "home.view"
+    },
+
+    {
+      "url": "/products",
+      "icon": "menu-icon icon-base ri ri-product-hunt-line",
+      "name": "Products",
+      "slug": "products",
+      "permission": "product.view"
+    },
+    {
+      "url": "/product/import",
+      "icon": "menu-icon icon-base ri ri-upload-cloud-line",
+      "name": "Product Import",
+      "slug": "product.import",
+      "permission": "product.import"
+    },
+    {
+      "url": "/product/r2-json-upload",
+      "icon": "menu-icon icon-base ri ri-file-upload-line",
+      "name": "R2 JSON Upload",
+      "slug": "product.r2-json-upload",
+      "permission": "r2.json.upload"
+    },
+
+    {
+      "url": "/orders",
+      "icon": "menu-icon icon-base ri ri-shopping-bag-3-line",
+      "name": "Orders",
+      "slug": "orders",
+      "permission": "order.view"
+    },
+
+    {
+      "url": "/customers",
+      "icon": "menu-icon icon-base ri ri-group-line",
+      "name": "Customers",
+      "slug": "customers",
+      "permission": "user.view"
+    },
+
+    {
+      "url": "/users",
+      "icon": "menu-icon icon-base ri ri-team-line",
+      "name": "Users",
+      "slug": "users",
+      "permission": "user.view"
+    },{
+      "url": "/api-users",
+      "icon": "menu-icon icon-base ri ri-key-line",
+      "name": "API Users",
+      "slug": "api-users",
+      "permission": "api.user.view"
+    },
+
+    {
+      "url": "/roles",
+      "icon": "menu-icon icon-base ri ri-shield-user-line",
+      "name": "Roles",
+      "slug": "roles",
+      "permission": "role.view"
+    },
+
+    {
+      "url": "/user-activity",
+      "icon": "menu-icon icon-base ri ri-history-line",
+      "name": "Activity Log",
+      "slug": "user-activity",
+      "permission": "activity.view"
+    },
+    {
+      "url": "/notices",
+      "icon": "menu-icon icon-base ri ri-notification-line",
+      "name": "Notices",
+      "slug": "notices",
+      "permission": "notice.view"
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon icon-base ri ri-settings-3-line",
+      "slug": "setting",
+      "permission": [
+        "settings.drm.type",
+        "settings.prompt.management",
+        "settings.publisher.management"
+      ],
+      "submenu": [
+        {
+          "url": "settings/publishers",
+          "name": "Publishers",
+          "slug": "settings-publishers",
+          "permission": [
+            "settings.publisher.management"
+          ]
+        },  {
+          "url": "settings/drm-type",
+          "name": "DRM Type ",
+          "slug": "settings-drm-type",
+          "permission": [
+            "settings.drm.type"
+          ]
+        },
+        {
+          "url": "settings/prompt",
+          "name": "Tag Prompt",
+          "slug": "settings-prompt",
+          "permission": [
+            "settings.prompt.management"
+          ]
+        },
+        {
+          "url": "settings/supported-lang-prompt",
+          "name": "Supported Language Prompt ",
+          "slug": "settings-supported-lang-prompt",
+          "permission": [
+            "settings.prompt.management"
+          ]
+        },
+        {
+          "url": "settings/dlc-product-id-prompt",
+          "name": "DLC Product Prompt Management",
+          "slug": "settings-dlc-product-id-prompt",
+          "permission": [
+            "settings.prompt.management"
+          ]
+        }
+      ]
+    }
+  ]
+}
